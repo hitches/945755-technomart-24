@@ -1,0 +1,269 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Cuprum', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;
+	
+	background-color: #ffffff;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; 
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-navigation-block {
+	background-color: #293449;
+}
+
+.main-navigation-block img {
+	padding-top: 13px;
+	padding-bottom: 16px;
+	padding-right: 55px;
+	padding-left: 55px;
+	background-color: #ee3643; 
+	box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.main-search {
+	color: #ffffff;
+	background-color: #293449;
+	border: none;
+}
+
+.main-search:hover,
+.main-search:focus {
+	color: #000000; 
+	background-color: #ffffff;
+}
+
+.main-purchases:hover {
+	color: #ffffff
+}
+
+.main-order {
+	width: 150px;
+	height: 42px;
+	background-color: #63a63e;
+	text-align: center;
+}
+
+.main-order:hover,
+.main-order:focus {
+	background-color: #5fbb2d
+}
+
+.main-information {
+	background-color: #f4f7f9;
+}
+
+h1 {
+	color: #ee3643;
+	font-family: Cuprum;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 23px;
+}
+
+.header-telephonenumber {
+	color: #ee3643;
+	font-family: Cuprum;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.header-adress{
+	color: #32425c;
+	font-family: Cuprum;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;	
+}
+
+.user-navigation a{
+	color: #000000;
+	font-family: Cuprum;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.user-navigation a:hover {
+	color: #ee3643;
+}
+
+.user-navigation a:active {
+	color: #b2b2b2;
+}
+
+.main-purchases {
+	font-size: 17px;
+	line-height: 17px;
+	color: #ffffff;
+
+	background-color: #293449;
+}
+
+.main-menu {
+	font-size: 17px;
+	line-height: 17px;
+	color: #ffffff;
+
+	background-color: #32425c;
+}
+
+.main-purchases,
+.user-navigation,
+.main-menu{
+	list-style: none;
+}
+
+.main-purchases a,
+.main-menu a {
+	color: #ffffff;
+}
+
+.main-marker a:active,
+.main-cart a:active {
+	color: #8a8e94;
+	background-color: #161d29; 
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+	background-color: #293449;
+}
+
+.headline {
+	font-family: Cuprum;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.features-list {
+	list-style: none;
+}
+
+.features-delivery{
+	font-family: "PT Sans";
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.features-company {
+	font-family: Cuprum;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+main .button {
+	font: inherit;
+
+	text-align: center;
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: #ee3643;
+	padding-top: 14px;
+	padding-bottom: 12px;
+}
+
+main .button:hover,
+main .button:focus {
+	background-color: #ca2c37
+}
+
+main .button:active {
+	background-color: #ba2732
+}
+
+.main-footer {
+	background-color: #32425c;
+}
+
+.secondary-navigation img {
+	padding-top: 13px;
+	padding-bottom: 16px;
+	padding-right: 55px;
+	padding-left: 55px;
+	background-color: #ee3643; 
+	box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.footer-contacts, 
+.footer-contacts a{
+	color: #f4f7f9;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.secondary-menu,
+.social-list {
+	list-style: none;
+}
+
+.secondary-menu1 a {
+	color: #f4f7f9;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.secondary-menu2 a {
+	color: #ffd180;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.footer-block {
+	background-color: #293449;
+}
+
+.footer-copyright {
+	width: 228px;
+	height: 33px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.footer-copyright p {
+	color: #ffd180;
+	font-family: Cuprum;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.footer-copyright a {
+	background-color: #293449;
+	color: #ffd180;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+	text-decoration: underline;
+}
+
+.footer-copyright a:active {
+	color: #d43644;
+}
