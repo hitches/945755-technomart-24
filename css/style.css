@@ -233,6 +233,16 @@ main .button:active {
 	line-height: 24px;
 }
 
+.secondary-menu a:hover,
+.secondary-menu a:focus {
+	text-decoration: underline;
+}
+
+.secondary-menu a:active {
+	text-decoration: none;
+	opacity: 0.5;
+}
+
 .footer-block {
 	background-color: #293449;
 }
