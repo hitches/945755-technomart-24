@@ -118,6 +118,7 @@ a {
 }
 
 .header-contacts {
+	width: 280px;
 	margin-right: 70px;
 }
 
@@ -149,6 +150,10 @@ a {
 
 .user-navigation a:active {
 	color: #b2b2b2;
+}
+
+.autorized-menu {
+	margin-top: 0;
 }
 
 .container {
@@ -251,13 +256,13 @@ a {
 .secondary-navigation {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
 .footer-secondary-menu {
 	width: 940px;
 	display: flex;
 	justify-content: space-between;
+	margin: 0 auto;
 }
 
 .footer-adress {
@@ -274,6 +279,8 @@ a {
 	width: 940px;
 	display: flex;
 	justify-content: space-between;
+	margin: 0 auto;
+
 }
 
 .secondary-navigation img {
