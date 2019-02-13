@@ -297,13 +297,11 @@ a {
 
 .filter-button:hover,
 .filter-button:focus {
-	border: 1px solid #bdc6ca;
-	background-color: #ffffff;
-	}
+	border-color: #bdc6ca;	
+}
 
 .filter-button:active {
-	border: 1px solid #ee3643;
-	background-color: #ffffff;
+	border-color: #ee3643;
 }
 
 .catalog-block {
@@ -362,17 +360,11 @@ a {
 
 .marker:hover,
 .marker:focus {
-	width: 135px;
-	height: 38px;
-	border: 3px solid #32425c;
-	background-color: #ffffff;
-}
+	border-color: #32425c;
+	}
 
 .marker:active {
-	width: 135px;
-	height: 38px;
-	border: 3px solid #32425c;
-	background-color: #ffffff;
+	border-color: #32425c;
 	opacity: 0.3;
 }
 
