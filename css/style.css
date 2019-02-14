@@ -152,9 +152,12 @@ a {
 	color: #b2b2b2;
 }
 
-.autorized-menu {
-	margin-top: 0;
+
+.authorized-visitor {
+	margin: 0;
+	padding: 0;
 }
+
 
 .container {
 	width: 940px;
@@ -176,6 +179,7 @@ a {
 	background-color: #32425c;
 	width: 940px;
 	margin: 0;
+	padding: 0;
 }
 
 .main-purchases a,
@@ -376,7 +380,7 @@ a {
 	width: 183px;
 	height: 20px;
 	font-size: 21px;
-	line-height: 21px;
+	line-height: 21px;	
 }
 
 .account-name:hover,
@@ -397,6 +401,55 @@ a {
 	line-height: 18px;
 	text-decoration: underline;
 }
+
+
+.breadcrumbs {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.page-title {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.producer {
+	width: 220px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.specifications {
+	width: 220px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.catalog {
+	width: 700px;
+}
+
+.catalog-columns {
+	display: flex;
+}
+
+.filter-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.catalog-list{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+
+}
+
 
 .breadcrumbs a {
 	color: #000000;
@@ -426,23 +479,7 @@ a {
 	border-color: #ee3643;
 }
 
-.catalog-block {
-	width: 220px;
-	height: 318px;
-	border: 1px solid #e5e5e5;
-	background-color: #ffffff;
-	margin-top: 21px;
-}
 
-.catalog-item a {
-	width: 155px;
-	height: 33px;
-	color: #000000;
-	font-family: "PT Sans";
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
-}
 
 .buy{
 	width: 135px;
@@ -490,14 +527,7 @@ a {
 	opacity: 0.3;
 }
 
-.catalog-item-image{
-    position:relative;   
-    width:218px;
-    height:170px;
-    background:#ff6600;
 
-    
-}
 .visible-on-hover{
     position:absolute;
     left:0;
@@ -508,6 +538,45 @@ a {
     padding:5px;
     display:none;
 }
+
+
+.catalog-block {
+	width: 218px;
+	height: 318px;
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+	margin-bottom: 21px;
+	margin-right: 12px;
+	padding-bottom: auto;
+}
+
+.catalog-item {
+	margin-bottom: 18px;
+}
+
+
+.catalog-item a {
+	width: 155px;
+	height: 33px;
+	color: #000000;
+	font-family: "PT Sans";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+
+}
+
+.catalog-item-image{
+    position:relative;   
+    width:218px;
+    height:170px;
+    background:#ff6600;
+    margin-bottom: 12px;
+
+    
+}
+
+
 .catalog-item-image:hover .visible-on-hover{
     display:block;
 }
@@ -516,6 +585,7 @@ a {
 .catalog-item-oldprice,
 .catalog-item-price  {
 	text-align: center;
+	margin: 0;
 }
 
 .catalog-item-oldprice {
@@ -525,6 +595,7 @@ a {
 	font-weight: 700;
 	line-height: 18px;
 	text-decoration: line-through;
+	margin-bottom: 13px;
 }
 
 .catalog-item-price {
@@ -536,4 +607,6 @@ a {
 	background-color: #ee3643;
 	padding-top: 13px;
 	padding-bottom: 13px;
+	margin-bottom: 21px;
+	
 }
