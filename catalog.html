@@ -14,10 +14,12 @@
 			<div class="main-navigation-wrapper">
 				<div class="main-navigation-block">
 					<img src="img/logo-technomart.svg" width="110" height="18" alt="Интернет магазин'Техномарт'">
-					<input class="main-search" type="text" name="search" placeholder="Поиск">
+					<div class="search">
+						<input class="main-search" type="text" name="search" placeholder="Поиск">
+					</div>
 					<ul class="main-purchases list-style">
 						<li class="main-marker"><a href="#"> Закладки:0</a></li>
-						<li class="main-cart"><a href="#"> Корзина:0</a></li>
+						<li class="second-cart"><a href="#"> Корзина:10</a></li>
 						<li class="main-order"><a href="#"> Оформить заказ</a></li>
 					</ul>
 				</div> 
@@ -65,7 +67,7 @@
 			<div class="filter-column">
 				<form class="filter-section" action="" method="post">
 					<fieldset class="producer">
-						<legend>Производители</legend>
+						<legend>Производители:</legend>
 						<ul class="filter list-style">
 							<li class="filter-option">
 								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Bosch" id="filter-bosch" checked>
@@ -90,7 +92,7 @@
 						</ul>	
 					</fieldset>						
 					<fieldset class="options">
-						<legend>Питание</legend>
+						<legend>Питание:</legend>
 						<ul class="specifications-options">
 							<li class="specifications-option list-style">
 								<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="rechargeable" id="filter-rechargeable" checked>
