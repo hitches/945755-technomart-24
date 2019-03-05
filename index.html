@@ -64,7 +64,7 @@
      <h2 class="headline">Контакты</h2>
      <p class="contacts-info">Вы&nbsp;можете забрать товар сами, заехав в&nbsp;наш офис:</p>
      <img src="img/mini-map.jpg" width="300" height="158" alt="Офис компании по&nbsp;адресу&nbsp;ул. Б.&nbsp;Конюшенная, д. 19/8, г. Санкт-Петербург">  			
-     <a class="button" href="feedback.html">Заблудились? напишите нам</a>
+     <a class="button-feedback" href="feedback.html">Заблудились? напишите нам</a>
    </section>
  </div>
 </main>
@@ -131,24 +131,26 @@
     </div>    
   </nav>
 </footer>
-<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-       <p class="feedback-item">
-         <label for="feedback-login">Ваше имя:</label> 
-         <input type="text" name="login" placeholder="Имя Фамилия" id="feedback-login">
-       </p>
-       <p class="feedback-item">
-         <label for="feedback-email">Ваш e-mail:</label> 
-         <input type="email" name="email" placeholder="email@example.com" id="feedback-email">
-       </p>
-       <p class="feedback-item">
-         <label for="feedback-content">Текст письма:</label> 
-         <input type="text" name="content" placeholder="В свободной форме" id="feedback-content">
-       </p>
-       <button class="button" type="submit">Отправить</button>
-     </form>
-<div>
+<form class="modal feedback-form" action="https://echo.htmlacademy.ru" method="post">  
+  <p class="feedback-item">
+    <label for="feedback-login">Ваше имя:</label> 
+    <input type="text" name="login" placeholder="Имя Фамилия" id="feedback-login">
+  </p>
+  <p class="feedback-item">
+    <label for="feedback-email">Ваш e-mail:</label> 
+    <input type="email" name="email" placeholder="email@example.com" id="feedback-email">
+  </p>
+  <p class="feedback-item feedback-item-text">
+    <label for="feedback-content">Текст письма:</label> 
+    <input type="text" name="content" placeholder="В свободной форме" id="feedback-content">
+  </p>
+  <button class="button button-send" type="submit">Отправить</button>
+  <button class="modal-close" type="button">Закрыть</button>
+</form>
+<div class="modal modal-map">
+  <h2 class="visually-hidden">Как до нас добратся</h2>
   <img src="img/map.jpg" width="940" height="447" alt="Офис компании по&nbsp;адресу&nbsp;ул. Б.&nbsp;Конюшенная, д. 19/8, г. Санкт-Петербург">
-  <button class="model-close" type="button">Закрыть</button>
+  <button class="modal-close" type="button">Закрыть</button>
 </div>
 </body>
 </html>
