@@ -12,19 +12,19 @@
  <header class="main-header">
   <nav class="main-navigation">
     <div class="main-navigation-wrapper">
-      <div class="main-navigation-block">
+      <div class="main-navigation-block container">
         <img src="img/logo-technomart.svg" width="110" height="18" alt="Интернет магазин'Техномарт'">
         <div class="search">
           <input class="main-search" type="text" name="search" placeholder="Поиск">
         </div>
         <ul class="main-purchases list-style">
-          <li class="main-marker"><a href="#"> Закладки:0</a></li>
-          <li class="main-cart"><a href="#"> Корзина:0</a></li>
+          <li class="main-marker"><a href="#"> Закладки: 0</a></li>
+          <li class="main-cart"><a href="#"> Корзина: 0</a></li>
           <li class="main-order"><a href="#"> Оформить заказ</a></li>
         </ul>
       </div> 
     </div> 
-    <div class="main-information">
+    <div class="main-information container">
       <h1 class="main-headline">Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта</h1>
       <div class="header-contacts">
         <a href="tel:+781255505055" class="header-telephonenumber">+7 (812) 555-05-55</a>
@@ -35,7 +35,7 @@
         <li class="checkin"><a href="#">Регистрация</a></li>
       </ul>
     </div>
-    <ul class="main-menu list-style">
+    <ul class="main-menu container list-style">
       <li><a>Главная</a></li>
       <li><a href="company.html">Компания</a></li>
       <li><a href="catalog.html">Каталог</a></li>
@@ -70,12 +70,12 @@
 </main>
 <footer class="main-footer">  
   <nav class="secondary-navigation">
-    <div class="footer-secondary-menu">
+    <div class="footer-secondary-menu container">
       <div class="footer-adress">
         <img src="img/logo-technomart.svg" width="138" height="23" alt="Интернет магазин'Техномарт'">
         <p class="footer-contacts">
-          г. Санкт-Петербург, ул. Б.&nbsp;Конюшенная, д. 19/8
-          <a href="tel:+781255505055">+7 (812) 555-05055</a>
+          г. Санкт-Петербург, ул.Б.&nbsp;Конюшенная, д. 19/8 <br>
+          <a href="tel:+781255505055"> +7 (812) 555-05-55</a>
         </p>
       </div>
       <div class="footer-list">
@@ -95,7 +95,7 @@
       </div>
     </div>   
     <div class="footer-social-block">
-      <div class="footer-block">
+      <div class="footer-block container">
         <p class="footer-copyright footer-info">
           &copy;&nbsp;2010&ndash;2019 Компания &laquo;Техномарт&raquo; Все права защищены
         </p>
@@ -119,19 +119,22 @@
             </a></li>
           </ul>
         </div>
-        <p class="footer-copyright footer-feedback">
-          Обратная связь:
-          <a class="button-copyright" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-        </p>
-        <p class="footer-copyright footer-email">
-          Разработано&mdash;
-          <a class="button-copyright" href="https://htmlacademy.ru">htmlacademy.ru</a>
-        </p>
+        <div class="footer-feedback-block">
+          <p class="footer-copyright footer-feedback">
+            Обратная связь:
+            <a class="button-copyright" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
+          <p class="footer-copyright footer-email">
+            Разработано&mdash;
+            <a class="button-copyright" href="https://htmlacademy.ru">htmlacademy.ru</a>
+          </p>
+        </div>
       </div>  
     </div>    
   </nav>
 </footer>
 <form class="modal feedback-form" action="https://echo.htmlacademy.ru" method="post">  
+  <div class="form">
   <p class="feedback-item">
     <label for="feedback-login">Ваше имя:</label> 
     <input type="text" name="login" placeholder="Имя Фамилия" id="feedback-login">
@@ -144,7 +147,10 @@
     <label for="feedback-content">Текст письма:</label> 
     <input type="text" name="content" placeholder="В свободной форме" id="feedback-content">
   </p>
-  <button class="button button-send" type="submit">Отправить</button>
+  </div>
+  <div class="send-background">
+    <button class="button button-send" type="submit">Отправить</button>
+  </div>
   <button class="modal-close" type="button">Закрыть</button>
 </form>
 <div class="modal modal-map">
