@@ -38,7 +38,7 @@
 						<a class="exit-button" href="#"></a>
 						</div>
 					
-					<ul class="user-navigation list-style">
+					<ul class="user-navigation user-navigation-block list-style">
 						<li class="order"><a href="#">Мои заказы</a></li>
 						<li class="account"> <a href="#">Личный кабинет</a></li>
 					</ul>
@@ -308,11 +308,13 @@
     </div>    
   </nav>
 </footer>
-	<div>
+	<div class="modal cart">
 		<h3>Товар добавлен в&nbsp;корзину!</h3> 
-		<a href="#" class="button">Оформить заказ</a>
-		<button class="button" type="button" >Продолжить покупки</button>
-		<button class="model-close" type="button">Закрыть</button>
+		<div class="send-background">
+			<a href="#" class="button">Оформить заказ</a>
+			<button class="button-continue" type="submit" >Продолжить покупки</button>
+		</div>
+		<button class="modal-close" type="button">Закрыть</button>
 	</div>
 </body>
 </html>
