@@ -1021,7 +1021,7 @@ img {
 
 .breadcrumbs li {
 	position: relative;
-	margin-right: 40px;
+	margin-right: 45px;
 	
 
 }
@@ -1032,7 +1032,7 @@ img {
 	width: 8px;
 	height: 12px;
 	top: 6px;
-	right: -25px;
+	right: -35px;
 	background-image: url(../img/icon-right-small.svg);
 }
 
@@ -1045,13 +1045,19 @@ img {
 }
 
 .go-home {
-	background-image: url(../img/icon-home.svg);
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	position: relative;
+	width: 14px;
+	padding-top: 10px;
+}
+
+.go-home::before {
+	content: "";
+	position: absolute;
 	width: 14px;
 	height: 12px;
-	padding-top: 10px;
-
+	top: 6px;
+	
+	background-image: url(../img/icon-home.svg);
 }
 
 .page-title {
