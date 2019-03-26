@@ -2,21 +2,21 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>HTML&nbsp;Academy: Техномарт</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <title>HTML&nbsp;Academy: Техномарт</title>  
   <link href="css/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style-minimize.css">
 </head>
 <body>  
   <header class="main-header">
     <nav class="main-navigation">
       <div class="main-navigation-wrapper">
         <div class="main-navigation-block container">
-          <img src="img/logo-technomart.svg" width="110" height="18" alt="Интернет магазин'Техномарт'">
+          <a class="logo">
+            <img src="img/logo-technomart.svg" width="110" height="18" alt="Интернет магазин'Техномарт'">
+          </a>
           <div class="search">
             <input class="main-search" type="text" id="search" name="search" placeholder="Поиск">
-            <label class="main-search-icon" for="search"></label>
+            <label class="main-search-icon" for="search">Поиск</label>
           </div>
           <ul class="main-purchases list-style">
             <li class="main-marker"><a href="#"> Закладки: 0</a></li>
@@ -47,71 +47,68 @@
       </ul>
     </nav>
   </header>
-  <main class="index-columns ">
-    <section class="categories container">
-      <div class="first-categories">
-        <ul class="categories-list">
-          <li>
-            <article class="materials categories-block new">
-              <p>Материалы</p>
-              <a href="#">На любой вкус</a>
-            </article>
-          </li>
-          <li>
-            <article class="tool categories-block">
-              <p>Инструмент</p>
-              <a href="#">На все случаи</a>              
-            </article>
-          </li>
-          <li>
-            <article class="equipment categories-block">
-              <p>Техника</p>
-              <a href="#">Для стройки</a> 
-            </article>
-          </li>
-        </ul>
-      </div>
-      <div class="second-categories">
-        <ul class="categories-list">
-          <li>
-            <article class="slider">              
-                <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
-                <input class="visually-hidden" type="radio" id="product-2" name="toggle">
-                <div class="slider-control">                  
-                  <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
-                  <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
-                </div>
-                <ul class="slider-list">
-                  <li class="slider-item">
-                    <h3>Дрели</h3>
-                    <p>Соседям на радость!</p>
-                    <a href="#" class="slider-item-button button">Открыть каталог</a>
-                  </li>
-                  <li class="slider-item">
-                    <h3>Перфораторы</h3>
-                    <p>Настоящие мужские игрушки</p>
-                    <a href="#" class="slider-item-button button">Открыть каталог</a>
-                  </li>
-                </ul>              
-            </article>
-          </li>
-          <li>  
-            <ul class="categories-list2">
-              <li>
-                <article class="sale categories-block">
-                  <p>Скидки 50%</p>
-                  <a href="#">На 350 товаров</a>              
-                </article>
+  <main>
+    <section class="categories container">      
+      <ul class="categories-list">
+        <li>
+          <article class="materials categories-block new">
+            <p>Материалы</p>
+            <a href="#">На любой вкус</a>
+          </article>
+        </li>
+        <li>
+          <article class="tool categories-block">
+            <p>Инструмент</p>
+            <a href="#">На все случаи</a>              
+          </article>
+        </li>
+        <li>
+          <article class="equipment categories-block">
+            <p>Техника</p>
+            <a href="#">Для стройки</a> 
+          </article>
+        </li>
+      </ul>      
+      
+      <ul class="categories-list">
+        <li>
+          <article class="slider">              
+            <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+            <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+            <div class="slider-control">                  
+              <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+              <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+            </div>
+            <ul class="slider-list">
+              <li class="slider-item">
+                <h3>Дрели</h3>
+                <p>Соседям на радость!</p>
+                <a href="#" class="slider-item-button button">Открыть каталог</a>
               </li>
-              <li>
-                <article class="delivery-free categories-block">
-                  <p>Доставка</p>
-                  <a href="#">Бесплатно</a> 
-                </article>
-              </ul> 
+              <li class="slider-item">
+                <h3>Перфораторы</h3>
+                <p>Настоящие мужские игрушки</p>
+                <a href="#" class="slider-item-button button">Открыть каталог</a>
+              </li>
+            </ul>              
+          </article>
+        </li>
+        <li>  
+          <ul class="categories-list2">
+            <li>
+              <article class="sale categories-block">
+                <p>Скидки 50%</p>
+                <a href="#">На 350 товаров</a>              
+              </article>
             </li>
-          </ul>
-      </div>
+            <li>
+              <article class="delivery-free categories-block">
+                <p>Доставка</p>
+                <a href="#">Бесплатно</a> 
+              </article>
+            </ul> 
+          </li>
+        </ul>      
     </section>
     <section class="popular container">
       <div class="popular-goods">
@@ -172,43 +169,43 @@
         </li>
         <li class="manufacturers-image">
           <a href="#">
-            <img src="img/Makita.jpg" alt="Bosch">
+            <img src="img/Makita.jpg" width="123" height="40" alt="Makita">
           </a>
         </li>
         <li class="manufacturers-image">
           <a href="#">
-            <img src="img/DeWALT.jpg" alt="DeWALT">
+            <img src="img/DeWALT.jpg" width="146" height="44" alt="DeWALT">
           </a>
         </li>
         <li class="manufacturers-image">
           <a href="#">
-            <img src="img/Интерскол.jpg" alt="Интерскол">
+            <img src="img/Интерскол.jpg" width="200" height="88" alt="Интерскол">
           </a>
         </li>
         <li class="manufacturers-image">
           <a href="#">
-            <img src="img/Hitachi.jpg" alt="Hitachi">
+            <img src="img/Hitachi.jpg" width="169" height="31" alt="Hitachi">
           </a>
         </li>
         <li class="manufacturers-image">
           <a href="#">
-            <img src="img/LG.jpg" alt="LG">
+            <img src="img/LG.jpg" width="121" height="73" alt="LG">
           </a>
         </li>
         <li class="manufacturers-image">
           <a href="#">
-            <img src="img/AEG.jpg" alt="AEG">
+            <img src="img/AEG.jpg" width="151" height="96" alt="AEG">
           </a>
         </li>
         <li class="manufacturers-image">
           <a href="#">
-            <img src="img/Metabo.jpg" alt="Metabo">
+            <img src="img/Metabo.jpg" width="204" height="69" alt="Metabo">
           </a>
         </li>
       </ul>
     </section>
     <section class="second-slider">      
-      <div class="container">
+      <div class="second-slider-position container">
         <h2 class="services-title">Сервисы</h2>
         <p class="services-paragraph">
           Хороший интернет-магазин отличается от плохого не только ценами!
@@ -282,7 +279,9 @@
     <nav class="secondary-navigation">
       <div class="footer-secondary-menu container">
         <div class="footer-adress">
-          <img src="img/logo-technomart.svg" width="138" height="23" alt="Интернет магазин'Техномарт'">
+          <a class="footer-logo">
+            <img src="img/logo-technomart.svg" width="138" height="23" alt="Интернет магазин'Техномарт'">
+          </a>
           <p class="footer-contacts">
             г. Санкт-Петербург, ул.Б.&nbsp;Конюшенная, д. 19/8 <br>
             <a href="tel:+781255505055"> +7 (812) 555-05-55</a>
@@ -368,5 +367,6 @@
   <img src="img/map.jpg" width="940" height="447" alt="Офис компании по&nbsp;адресу&nbsp;ул. Б.&nbsp;Конюшенная, д. 19/8, г. Санкт-Петербург">
   <button class="modal-close" type="button">Закрыть</button>
 </div>
+<script src="js/script.js"></script>
 </body>
 </html>
