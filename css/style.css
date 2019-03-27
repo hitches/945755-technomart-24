@@ -1401,16 +1401,7 @@ img {
 	margin-left: -310px;
 	display: none;
 }
-.modal-show {
-	display: block;
-	-webkit-animation: bounce 0.6s;
-	        animation: bounce 0.6s;
-}
 
-.modal-error {
-  -webkit-animation: shake 0.6s;
-          animation: shake 0.6s;
-}
 
 .feedback-item {
 	display: -webkit-box;
@@ -1519,10 +1510,10 @@ img {
 
 .modal-map {
 	top: 50%;
-	left: 50%;
-	display: none;
+	left: 50%;	
 	width: 940px;
 	height: 447px;
+	display: none;
 	margin-left: -470px;
 	margin-top: -223px;
 	-webkit-box-shadow: 0 0 15px 1px rgba(47, 42, 43, 0.5);
@@ -1530,8 +1521,29 @@ img {
 	background-color: #565656;
 }
 
-.modal-map p{
+.modal-map p {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
 	margin: 0;
+}
+
+.modal-map iframe {
+	position: relative;
+	z-index: 2;
+	border: none;
+}
+
+.modal-show {
+	display: block;
+	-webkit-animation: bounce 0.6s;
+	        animation: bounce 0.6s;
+}
+
+.modal-error {
+  -webkit-animation: shake 0.6s;
+          animation: shake 0.6s;
 }
 
 .account-name {
